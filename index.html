@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Change-Height-International</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="webappBackground">
+        <main class="webappMain">
+            <div class="webappContainer">
+                <div class="webapphead">
+                    <p class="webappLogo">Basketball</p>
+                    <p class="webappLogo">Score</p>
+                    <p class="webappLogo">Calculate</p>
+                </div>
+                <div class="webappInput">
+                    <label class="inputHead" for="twoFGM">จำนวนลูก2แต้มที่ยิงลง</label><br>
+                    <input id="twoFGM" type="number"><br>
+                    <label class="inputHead" for="twoFGA">จำนวนลูก2แต้มที่ยิงทั้งหมด</label><br>
+                    <input id="twoFGA" type="number"><br>
+                    <label class="inputHead" for="threeFGM">จำนวนลูก3แต้มที่ยิงลง</label><br>
+                    <input id="threeFGM" type="number"><br>
+                    <label class="inputHead" for="threeFGA">จำนวนลูก3แต้มที่ยิงทั้งหมด</label><br>
+                    <input id="threeFGA" type="number"><br>
+                    <label class="inputHead" for="FTM">จำนวนลูกโทษที่ยิงลง</label><br>
+                    <input id="FTM" type="number"><br>
+                    <label class="inputHead" for="FTA">จำนวนลูกโทษที่ยิงทั้งหมด</label><br>
+                    <input id="FTA" type="number"><br>
+                    <label class="inputHead" for="GAME">จำนวนเกมที่ลงเล่น</label><br>
+                    <input id="GAME" type="number"><br>
+                    <button onclick="totalStats()" class="btnSubmit" type="submit">SUBMIT</button><br>
+                    <div class="ouput" id="result"></div>
+                </div>
+            </div>
+        </main>
+    </section>
+</body>
+<script src="app.js"></script>
+
+</html>
